@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en"> <!--language is english-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--tell internet explorer give the user most up-to-date experience-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--for mobile, how to display the page initially when it loads-->
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700"> <!--link to google font-->
+    <link rel="stylesheet" href="css/bootstrap.css"> <!--link to bootstrap style css-->
+    <link rel="stylesheet" href="css/style.css"> <!--link to personal style css-->
+  </head>
+
+  <!--There are 3 big main boxes: top, middle, bottom-->
+  <body>
+    <!--the whole box-->
+    <div class="container"> 
+      <!--first top box-->
+      <header class="row"> 
+      	<!--box for udacity logo-->
+        <div class="col-md-6 move-lower"> 
+          <img class="img-responsive title-logo" src="images/logo.png" alt="Grace Ng logo" >
+        </div>
+				
+        <!--box for Dr. Freeze text-->
+        <div class="col-md-6 text-right text-uppercase"> <!--to move text to the right; to capitalize all the text-->
+          <h1 class="title-super text-thick">Grace Ng</h1> <!--first important title so use h1-->
+          <h4>Front-End Web Developer</h4>
+        </div> 
+      </header>
+				
+      <!--box for horizontal line-->
+      <div class="row upper-line">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+			
+      <!--second middle box-->
+      <section class="row">
+        <!--box for big picture-->
+        <article class="col-md-12">
+          <img class="img-responsive framing" src="images/main.jpg" alt="coding background">
+        </article>
+      </section>
+			
+      <!--third bottom box-->
+      <!--box for featured ice cream-->
+      <div class="row featured-lower">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2> <!--second important title so use h2-->
+        </div>
+      </div>
+			
+      <!--box for 4 images in bottom-->
+      <section class="row text-center">
+        <!--first picture-->
+        <article class="col-md-4">  
+          <!--img-responsive is to makesure the picture stays in the container area-->
+          <img class="img-responsive" src="images/project1.jpg" alt="Website mockup project">
+          <h3 class="text-uppercase">Dr. Freeze</h3>
+          <p>http:</p>
+        </article>
+        <!--second picture-->
+        <article class="col-md-4">
+          <img class="img-responsive" src="images/project2.jpg" alt="Rhum Raisin">
+          <h3 class="text-uppercase">Grace Ng Resume</h3>
+          <p>http</p>
+        </article>
+		<article class="col-md-4">  
+          <!--img-responsive is to makesure the picture stays in the container area-->
+          <img class="img-responsive" src="images/project3.jpg" alt="Dr. Freeze website project">
+          <h3 class="text-uppercase">Dr. Freeze Website</h3>
+          <p>http:</p>
+        </article>   
+	  </section>
+	  
+
+    </div>
+  </body>
+</html>
